@@ -1,91 +1,82 @@
-Costco-Sales-Analysis
+Costco Sales Analysis – Power BI Dashboard (2020–2024)
+A 5-Year Sales Intelligence Solution with Actionable Business Insights
+
+🧠 Project Summary
+The Costco Sales Analysis Dashboard is a comprehensive Power BI solution that analyzes 5 years (2020–2024) of Costco’s global sales data. This interactive dashboard enables data-driven decision-making by offering deep insights into sales trends, customer behavior, regional performance, and product profitability. The project showcases my ability to handle end-to-end BI workflows — from data transformation to advanced DAX, KPI tracking, and executive reporting.
+
+📊 Key Features & Functionalities
+🔎 Interactive Navigation & UX
+Slicer Panels with Bookmarks: Created collapsible slicers and bookmarks to enhance user experience.
+
+Dynamic Filtering Pane: Includes filters for Year, Region, Category, Sub-Category, Segment, and Ship Mode.
+
+"Clear All Filters" Button: Instantly resets dashboard filters for seamless exploration.
+
+📈 Powerful Visualizations
+KPI Cards: Track real-time metrics for Total Revenue, Profit, Quantity Sold, and Year-over-Year Growth.
+
+Donut, Bar & Line Charts: Showcase comparisons across time, regions, and customer segments.
+
+USA Shape Map: Visual representation of state-wise revenue and performance.
+
+⚙️ Data Processing & Modeling
+Power Query ETL:
+
+Removed duplicates and handled missing/invalid entries.
+
+Merged 5 years of global sales with product pricing using product_id.
+
+Extracted Country and State from customer data for regional segmentation.
+
+Data Modeling: Designed an efficient star schema for fast, scalable performance.
+
+🧮 DAX-Driven Metrics
+Net Sales: Total Sales after applying discounts.
+
+Total Revenue & Profit: Comprehensive revenue and margin calculations.
+
+Custom KPIs: Year-over-year % changes in sales, profit, and quantity sold.
+
+Target Analysis: Comparison between actual vs. target revenue and orders.
+
+💼 Business Problems Addressed
+✅ Revenue & Profit Optimization
+Identified top-performing and underperforming regions to guide resource allocation.
+
+Analyzed profit distribution to realign strategies for better margins.
+
+✅ Customer Segmentation
+Segmented insights by Consumer, Corporate, and Home Office segments.
+
+Helped tailor marketing strategies for targeted growth.
+
+✅ Product-Level Profitability
+Highlighted top revenue-generating and high-margin products.
+
+Enabled inventory and sales alignment with profitable products.
+
+✅ Performance Tracking vs. Targets
+Measured actual revenue and orders against targets to monitor performance gaps.
+
+Drove goal-oriented decision-making through KPI monitoring.
+
+✅ Regional Sales Strategy
+In-depth state-level performance analysis using maps and region filters.
+
+Informed geographic expansion and cost-reduction strategies.
+
+✅ Trend Forecasting
+Year-over-year visual comparisons to identify sales trends and anomalies.
+
+Supported proactive planning and forecasting.
+
+📌 Key Takeaways for Stakeholders
+
+Role	Value Delivered
+Executives	High-level overview of financial performance and trends
+Sales Teams	Regional and segment-wise performance insights for strategic sales efforts
+Data Analysts	Drill-down capabilities for deep-dives into granular metrics
+📎 Tools & Technologies Used
+Power BI Desktop
 
 
-Power BI Sales Insights Dashboard: 5-Year Detailed Analysis of Costco Global Sales
-Welcome to the Power BI Sales Insights Dashboard, a comprehensive solution for analyzing 5 years of Costco global sales data (2020–2024). This dashboard is designed to empower businesses with actionable insights into performance trends, customer segmentation, and product profitability, all while showcasing my expertise in Power BI and real-world problem-solving.
-
-Project Overview
-The dashboard leverages Power BI to provide a data-driven approach for analyzing and visualizing key metrics, ensuring businesses can make informed decisions. From data preprocessing to creating dynamic visualizations, this project demonstrates a strong grasp of Power BI capabilities, including Power Query, data modeling, and DAX formulas.
-
-𝐊𝐞𝐲 𝐅𝐞𝐚𝐭𝐮𝐫𝐞𝐬:
-Interactive Slicers & Bookmarks: Designed slicer panels with pop-out functionality, enhancing user engagement and navigation.
-Dynamic Visualizations: Developed a variety of visuals including donut charts, bar charts, and line charts with real-time comparisons to target metrics.
-Advanced KPI Development: Created custom metrics to measure sales growth, profit, and quantities vs. last year's performance.
-Targeted Business Insights: Focused on real-world sales and growth metrics to reflect key performance indicators (KPIs) that businesses value.
-![Costco Sales Analysis]Screenshot 2025-02-04 222006
-
-👉 Explore the Dashboard Here
-
-Business Problems Solved
-Revenue and Profit Analysis:
-
-Identify top-performing regions and segments to allocate resources effectively.
-Highlight underperforming areas to strategize improvements.
-Customer Segmentation:
-
-Understand customer behavior by segment (Consumer, Corporate, Home Office).
-Optimize marketing efforts for each customer group.
-Product Profitability:
-
-Determine high-revenue products and those with the best profit margins.
-Align inventory management with product performance.
-Target vs. Actual Performance:
-
-Track yearly revenue and order targets.
-Identify gaps and strategize to meet business goals.
-Regional Insights:
-
-Analyze state-level sales to prioritize expansion or cost-cutting measures.
-Address regional disparities in revenue generation.
-Trend Analysis:
-
-Year-over-year comparisons highlight areas of growth and decline.
-Enable proactive planning based on historical trends.
-Key Takeaways for Stakeholders
-Executives: Gain a high-level overview of revenue, profit, and sales trends.
-Sales Teams: Identify opportunities for upselling and improving regional performance.
-Analysts: Drill down into granular data for deeper insights.
-🛠 Key Features
-1. Data Preprocessing Using Power Query
-✅ Removed duplicates and replaced invalid values with NULL to ensure data consistency.
-✅ Eliminated unnecessary columns to streamline the dataset.
-✅ Sorted data for better organization.
-✅ Split customer data into Country and State columns for enhanced granularity.
-✅ Merged 5 years of global sales data with the Products Table using product_id to integrate product pricing.
-2. Data Transformation and Calculations
-Using DAX formulas, the following metrics were derived:
-
-Net Sale: Total sales after discounts.
-Total Revenue: Revenue generated across all transactions.
-Total Profit: Net profit after deducting costs.
-3. Comprehensive Visualizations
-Summary Metrics:
-Total Revenue: 💲$2.9M
-Total Profit: 💲$1.6M
-Total Quantity Sold: 49.3K units
-Revenue and Profit by Region:
-Dynamic visuals showing performance in West, East, Central, and South regions.
-Revenue Target vs. Total Revenue:
-Compare annual performance against pre-set targets for actionable insights.
-Orders vs. Target Orders:
-Analyze the gap between achieved and target orders.
-Revenue by Segment:
-Contribution by Consumer, Corporate, and Home Office segments.
-Product-Level Insights:
-A detailed table showing product name, total revenue, target revenue, total profit, total quantity, and total orders.
-Shape Map:
-A USA map displaying performance by state, aiding in regional analysis.
-4. Advanced Filtering Options
-Slicers:
-Filter data by Year.
-Custom Filter Pane:
-Dynamic filters for Category, Sub-Category, Region, Quarter, and Ship Mode.
-Open/Close functionality for a streamlined user experience.
-Clear All Filters Button:
-Reset filters to explore data without constraints.
-5. Key Performance Indicators (KPIs)
-Comparative metrics showing percentage increase or decrease in:
-Total Revenue
-Profit
-Quantity Sold
-KPI highlights year-over-year trends, enabling quick identification of growth or decline.
